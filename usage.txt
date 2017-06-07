@@ -1,0 +1,3 @@
+usage notes:
+created master repository test using github web user demuth: https://github.com/demuth/test/
+Upload(ed) Files quadratic.py and canvas2.py via web interface, downloading each locally from dune-vscu.slack.com, code by smithhisler
