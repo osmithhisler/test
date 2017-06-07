@@ -10,7 +10,7 @@ $ git add locations.txt
 $ git status
 $ git commit -m "testing add file"
 $ git push origin master
-$ git pull -all
+$ git pull --all
 $ ls -l
 $ git branch branch1
 $ git checkout branch1
