@@ -3,6 +3,9 @@ created master repository test using github web user demuth: https://github.com/
 Upload(ed) Files quadratic.py and canvas2.py via web interface, downloading each locally from dune-vscu.slack.com, code by smithhisler
 On local machine (Mac), at /Users/demuth/dune/, 
 $ git clone https://github.com/demuth/test.git  
+$ ls -l
+$ cd test/
+$ ls -l
 $ git status
 $ echo "Earth's Moon" >> locations.txt
 $ git status
