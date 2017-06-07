@@ -1,5 +1,6 @@
-Solving quadratic equations of form ax^2 + bx + c to display the roots 
+#Solving quadratic equations of form ax^2 + bx + c to display the roots 
 #Plotting quadratic functions of form y = ax^2 + bx + c
+#code by Smithhisler 20170606
 
 from __future__ import division
 import matplotlib.pyplot as plt
@@ -19,28 +20,28 @@ D = B**2 - (4*A*C)
 
 if D >= 0:
     print ("The equation has two roots.")
-    root1 = (-B + sqrt(D))/(2*A)
-    root2 = (-B - sqrt(D))/(2*A)
+    root1 = (-B + sqrt(D))/2/A
+    root2 = (-B - sqrt(D))/2/A
     print "The first root is " + str(root1)
     print "The second root is " + str(root2)
 else:
     print("The equation has no real roots.")
 
 #plotting
-
-h = (-1*B)/(2*A)
-k = (A*(h**2)) + (B*h) + C
+#calculate vertex (h,k)
+h = -1*B/2/A
+k = (A*h*h) + (B*h) + C
 
 print(h)
 print("The vertex is located at: ")
 print("x = " + str(h))
 print("y = " + str(k))
 
-a =[]
+a = []
 b = []
 
 for x in np.arange((int(h)-10),(int(h)+10),0.5):
-    y = (A*(x**2)) + (B*x) + C
+    y = (A*x*x) + (B*x) + C
     a.append(x)
     b.append(y)
 
