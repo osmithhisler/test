@@ -3,5 +3,31 @@ created master repository test using github web user demuth: https://github.com/
 Upload(ed) Files quadratic.py and canvas2.py via web interface, downloading each locally from dune-vscu.slack.com, code by smithhisler
 On local machine (Mac), at /Users/demuth/dune/, 
 $ git clone https://github.com/demuth/test.git  
-thus creating a new local directory /Users/demuth/dune/test/ from which to work from. See also https://git-scm.com/docs/git-clone 
-Making selected edits in quadratic.py on local development machine, then testing, when satisfied, push updates back into the github hosted repository using:
+$ git status
+$ echo "Earth's Moon" >> locations.txt
+$ git status
+$ git add locations.txt
+$ git status
+$ git commit -m "testing add file"
+$ git push origin master
+$ git pull -all
+$ ls -l
+$ git branch branch1
+$ git checkout branch1
+$ emacs -nw quadratic.py
+$ python quadratic.py
+$ ls -l
+$ git status
+$ git add quadratic.py
+$ git commit quadratic.py -m "base edits to quadratic.py made by demuth"
+$ git status
+$ rm quadratic.py~
+$ ls -l
+$ git status
+$ git checkout master
+$ git merge branch1
+$ git branch -d branch1
+$ git status
+$ git push origin master
+$ git status
+Reference: https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
