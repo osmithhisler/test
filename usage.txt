@@ -1,4 +1,7 @@
 usage notes:
 created master repository test using github web user demuth: https://github.com/demuth/test/
 Upload(ed) Files quadratic.py and canvas2.py via web interface, downloading each locally from dune-vscu.slack.com, code by smithhisler
-On local machine (Mac), at /Users/demuth/dune/, $ git clone https://github.com/demuth/test.git  creating a new local directory /Users/demuth/dune/test/ from which to work from.
+On local machine (Mac), at /Users/demuth/dune/, 
+$ git clone https://github.com/demuth/test.git  
+thus creating a new local directory /Users/demuth/dune/test/ from which to work from. See also https://git-scm.com/docs/git-clone 
+Making selected edits in quadratic.py on local development machine, then testing, when satisfied, push updates back into the github hosted repository using:
